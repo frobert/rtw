@@ -2,7 +2,7 @@
 
 ## install rbenv
 
-git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+`git clone https://github.com/rbenv/rbenv.git ~/.rbenv`
 
 For .bashrc:
 
@@ -15,6 +15,10 @@ For .bash_profile:
 For ZSH:
 
 `echo 'eval "$(~/.rbenv/bin/rbenv init - zsh)"' >> ~/.zshrc `
+
+Add to your .bashrc/.bash_profile/.zshrc
+
+`eval "$(rbenv init -)"`
 
 restart terminal
 
